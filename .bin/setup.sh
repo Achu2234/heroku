@@ -7,12 +7,12 @@ cd ./dev
 mkdir ./tmp
 cd ./tmp
 git clone "https://github.com/libDrive/server.git" --depth 1 server
-git clone "https://github.com/libDrive/web.git" --depth 1 web
+git clone "https://github.com/sadhanhori/ntg.git" --depth 1 web
 mkdir ./libDrive.Server
 mkdir ./libDrive.Server/build
 mkdir ./libDrive.Server/src
 mkdir ./libDrive.Server/templates
-cd ./web
+cd ./ntg
 yarn install
 yarn run build
 mv ./build/* ../libDrive.Server/build
